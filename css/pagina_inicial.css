@@ -1,0 +1,140 @@
+body {
+    background-color: darkgrey;
+}
+
+#menu {             /* MENU PRINCIPAL */
+    margin: 0;
+    width: auto;
+    background-color: #000;
+    font-size: 16px;
+    font-family: Tahoma, Geneva, sans-serif;
+    font-weight: bold;
+    text-align: left;
+    padding: 8px;
+    border-radius: 8px;
+}
+
+#menu ul {
+    margin: 0;
+    padding: 8px 0;
+    list-style: none;
+    height: auto;
+}
+
+#menu li {
+    display: inline;
+    padding: 8px;
+}
+
+#menu a {
+    color: #FFF;
+    padding: 10px;
+    text-decoration: none;
+}
+
+.menup .menup:hover {
+    background-color: goldenrod;
+    color: #FFF;
+    border-radius: 20px;
+}
+
+/*------------------------------------------------------------------------------------------------------------------------*/
+/* SUBMENU */
+
+#menu li ul {
+    font-size: 13px;
+    position: absolute;
+    display: none;
+    background-color: #000;
+    border-radius: 2px;
+    top: 58px;
+    left: 105px;
+
+}
+
+#menu li:hover ul, #menu li.over ul{
+    display: block;
+}
+
+#menu li ul li{
+    display: block;
+    width: 150px;
+    height: 30px;
+}
+
+#menu li ul li a:hover {
+    background-color: #636363;
+    color: #FFF;
+}
+
+/*------------------------------------------------------------------------------------------------------------------------*/
+/* PRODUTOS */
+
+#titulo {
+    font-family: "Roboto", "Helvetica", "Arial";
+}
+
+svg {
+    width: 35px;
+    height: 35px;
+}
+
+/*------------------------------------------------------------------------------------------------------------------------*/
+/* RODAPÉ */
+
+footer {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    background-color: #000;
+    color: #FFF;
+    width: 100%;
+    text-align: center;
+    display: inline-flex;
+}
+
+.rodape {
+    position: relative;
+    bottom: 0;
+    left: 50;
+    right: 50;
+    margin-inline: 150px;
+}
+
+.rodape h2 {
+    border-left: solid 5px;
+    border-color: #636363;
+    position: relative;
+    left: 25px;
+    color: #FFF;
+}
+.rodape ul {
+    margin: 0;
+    list-style: none;
+}
+
+.rodape a {
+    color: #FFF;
+    text-decoration: none;
+    margin: 1px;
+}
+
+.rodape a:hover {
+    text-decoration: underline;
+}
+
+#rdp1 li {
+    position: relative;
+    bottom: 10px;
+    left: 5px;
+}
+
+#rdp2 li {
+    position: relative;
+    left: 5px;
+}
+
+#rdp3 li {
+    position: relative;
+    left: 5px;
+}
